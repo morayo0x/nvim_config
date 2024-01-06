@@ -80,12 +80,12 @@ map("n", "<leader>p", "+p")
 
 
 -- Quickly Switch Between buffers
-map("n", "<leader><leader><leader>", "<C-^>")
-map("i", "<leader><leader>", "<ESC><C-^>")
+map("n", "<leader><leader>", "<C-^>")
+map("i", "<leader><leader><leader>", "<ESC><C-^>")
 
 -- Switching Buffer with Lef and Right Arrow Keey
-map("n", "<left>", "<cmd>bp<CR>")
-map("n", "<right>", "<cmd>bn<CR>")
+map("n", "<leader><left>", "<cmd>bp<CR>")
+map("n", "<leader><right>", "<cmd>bn<CR>")
 
 
 -- Enter Command Mode using ; instead of :

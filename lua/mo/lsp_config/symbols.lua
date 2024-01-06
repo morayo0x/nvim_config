@@ -48,5 +48,5 @@ require("symbols-outline").setup({
 -- hi GitSignsDelete guibg=#193549 guifg=#ff2600
 -- hi ColorColumn guifg=NONE guibg=#204563 gui=NONE
 -- ]])
---
+
 

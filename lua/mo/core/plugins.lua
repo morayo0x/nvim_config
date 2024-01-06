@@ -31,7 +31,10 @@ return require('packer').startup(function()
     use 'xiyaowong/nvim-transparent' -- enable transparency
     use 'simrat39/symbols-outline.nvim' -- enable symbols tab
     use 'simrat39/inlay-hints.nvim' -- enable symbols tab
-    use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' } -- good folding
+    use { 
+      'kevinhwang91/nvim-ufo', 
+      requires = 'kevinhwang91/promise-async',
+    } -- good folding
     use 'wbthomason/packer.nvim' -- Packer package manager
     use "max397574/better-escape.nvim" -- faster jj / kshadowk
     use 'jose-elias-alvarez/null-ls.nvim' -- Use Vale as a prose linter
